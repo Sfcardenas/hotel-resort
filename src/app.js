@@ -4,7 +4,7 @@ const app = express();
 
 app.use(express.json()); // Permite que el servidor entienda datos en formato JSON
 
-let reservas = []; // Nuestra base de datos temporal
+let reservas = []; // Nuestra base de datos temporales de rs
 
 // 1. ENDPOINT DE LECTURA (GET): Ver todas las reservas
 app.get('/reservas', (req, res) => {
