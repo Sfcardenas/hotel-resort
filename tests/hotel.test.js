@@ -36,6 +36,6 @@ test('9. Error: Noches es un texto', () => {
     expect(esReservaValida(101, "muchas")).toBe(false);
 });
 
-test('10. Error: Habitación muy grande (pero válida)', () => {
+test('10. Erro: Habitación muy grande (pero válida)', () => {
     expect(esReservaValida(9999, 10)).toBe(true);
 });
